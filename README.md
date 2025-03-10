@@ -1,4 +1,5 @@
-# [LeetCode](https://leetcode.com) 程式練習
+# [LeetCode](https://leetcode.com/u/kpSvQK03RA/) 程式練習
+連結將導至我的Leetcode 
 
 
 ## Python  
