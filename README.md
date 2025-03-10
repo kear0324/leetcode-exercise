@@ -1,7 +1,8 @@
 # [LeetCode](https://leetcode.com) 程式練習
 
 
-## Python   Update time:2025/03/10
+## Python  
+Update time:2025/03/10
  
 | | Easy | Medium | Hard | Total |
 |:---:|:---:|:---:|:---:|:---:|
@@ -10,7 +11,8 @@
 | **Coverage** | 0 % |0 % | 0 % | 0 % |
 
 
-## C++   Update time:2025/03/10
+## C++  
+Update time:2025/03/10
 
 | | Easy | Medium | Hard | Total |
 |:---:|:---:|:---:|:---:|:---:|
