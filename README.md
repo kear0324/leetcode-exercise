@@ -2,8 +2,9 @@
 連結將導至我的Leetcode 
 
 
-## Python  
+# Python  
 Update time:2025/03/12
+
 (9)
  
 | | Easy | Medium | Hard | Total |
@@ -13,8 +14,9 @@ Update time:2025/03/12
 | **Coverage** | 0.002 % |0 % | 0 % | 0.0006 % |
 
 
-## C++  
+# C++  
 Update time:2025/03/10
+
 (1.未上傳)
 
 | | Easy | Medium | Hard | Total |
