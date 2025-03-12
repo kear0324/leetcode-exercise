@@ -3,8 +3,8 @@
 
 
 ## Python  
-Update time:2025/03/10
-(1.9未說明流程)
+Update time:2025/03/12
+(9)
  
 | | Easy | Medium | Hard | Total |
 |:---:|:---:|:---:|:---:|:---:|
@@ -15,7 +15,7 @@ Update time:2025/03/10
 
 ## C++  
 Update time:2025/03/10
-(1.未放)
+(1.未上傳)
 
 | | Easy | Medium | Hard | Total |
 |:---:|:---:|:---:|:---:|:---:|
