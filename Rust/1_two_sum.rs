@@ -10,4 +10,13 @@ impl Solution {
             }
         }
         vec![] 
+    }
+}
+
+fn main() {
+    let param_1 = vec![2, 7, 11, 15];
+    let param_2 = 9;
+
+    let ret = Solution::two_sum(param_1, param_2);
+    println!("{:?}", ret); // Output: [0, 1]
 }
