@@ -1,0 +1,15 @@
+class Solution:
+
+    def twoSum(self, nums: list[int], target: int) -> list[int]:
+        # 建立一個空字典（Hash Map），用來記錄：{看過的數字: 它的索引位置}
+        seen = {}
+
+        # 使用 enumerate 同時取得索引 (i) 和數值 (num)
+        for i, num in enumerate(nums):
+            # 計算我們需要的另一個數字
+            complement = target - num
+
+            # 檢查這個需要的數字是否已經在字典裡
+            if complement in seen:
+                # 如果有，代表找到了！回傳 [歷史數字的索引, 當前數字的索引]
+                return [seen[complement], i]
