@@ -1,0 +1,21 @@
+class Solution:
+
+    def isPalindrome(self, x: int) -> bool:
+        # 特例處理：
+        # 1. 負數絕對不是回文 (例如 -121 -> 121-)
+        # 2. 尾數是 0 的數字也絕對不是回文 (例如 10 -> 01)，除非數字本身就是 0
+        if x < 0 or (x % 10 == 0 and x != 0):
+            return False
+
+        reverted = 0
+        # 當 x > reverted 時，代表還沒翻轉到一半
+        while x > reverted:
+            # 抓出 x 的最後一位數，加到 reverted 的尾端
+            reverted = reverted * 10 + x % 10
+            # x 砍掉最後一位數
+            x //= 10
+
+        # 當迴圈結束時，代表已經翻轉了一半：
+        # 偶數長度：x == reverted (例如 12 == 12)
+        # 奇數長度：x == reverted // 10 (例如 12 == 123 // 10 -> 12 == 12，忽略中間數)
+        return x == reverted or x == reverted // 10
